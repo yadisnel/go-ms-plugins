@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/registry"
 )
 

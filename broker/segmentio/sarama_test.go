@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/yadisnel/go-ms/v2/broker"
-	sarama "github.com/micro/go-plugins/broker/kafka/v2"
-	segjson "github.com/micro/go-plugins/codec/segmentio/v2"
+	sarama "github.com/yadisnel/go-ms/v2plugins/broker/kafka/v2"
+	segjson "github.com/yadisnel/go-ms/v2plugins/codec/segmentio/v2"
 )
 
 func BenchmarkSaramaCodecJsonPublish(b *testing.B) {

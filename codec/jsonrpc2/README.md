@@ -8,9 +8,9 @@ package main
 
 import (
     "github.com/yadisnel/go-ms/v2"
-    "github.com/yadisnel/go-ms/client"
-    "github.com/yadisnel/go-ms/server"
-    "github.com/micro/go-plugins/codec/jsonrpc2"
+    "github.com/yadisnel/go-ms/v2client"
+    "github.com/yadisnel/go-ms/v2server"
+    "github.com/yadisnel/go-ms/v2plugins/codec/jsonrpc2"
 )
 
 func main() {

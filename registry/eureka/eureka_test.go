@@ -8,7 +8,7 @@ import (
 
 	"github.com/hudl/fargo"
 	"github.com/yadisnel/go-ms/v2/registry"
-	"github.com/micro/go-plugins/registry/eureka/v2/mock"
+	"github.com/yadisnel/go-ms/v2plugins/registry/eureka/v2/mock"
 )
 
 func TestRegistration(t *testing.T) {

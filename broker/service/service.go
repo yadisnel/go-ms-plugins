@@ -4,7 +4,7 @@ package service
 import (
 	"github.com/yadisnel/go-ms/v2/broker"
 	"github.com/yadisnel/go-ms/v2/broker/service"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 )
 
 func init() {

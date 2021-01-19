@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/transport"
 )
 

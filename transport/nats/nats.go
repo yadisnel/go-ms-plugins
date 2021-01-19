@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/yadisnel/go-ms/v2/codec/json"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/server"
 	"github.com/yadisnel/go-ms/v2/transport"
 	"github.com/nats-io/nats.go"

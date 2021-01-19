@@ -10,7 +10,7 @@ import (
 	"github.com/juju/ratelimit"
 	bmemory "github.com/yadisnel/go-ms/v2/broker/memory"
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
+	"github.com/yadisnel/go-ms/v2/selector"
 	"github.com/yadisnel/go-ms/v2/errors"
 	rmemory "github.com/yadisnel/go-ms/v2/registry/memory"
 	"github.com/yadisnel/go-ms/v2/server"

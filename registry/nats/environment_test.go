@@ -6,7 +6,7 @@ import (
 
 	log "github.com/yadisnel/go-ms/v2/logger"
 	"github.com/yadisnel/go-ms/v2/registry"
-	"github.com/micro/go-plugins/registry/nats/v2"
+	"github.com/yadisnel/go-ms/v2plugins/registry/nats/v2"
 )
 
 type environment struct {

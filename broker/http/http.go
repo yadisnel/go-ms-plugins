@@ -20,7 +20,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/yadisnel/go-ms/v2/broker"
 	"github.com/yadisnel/go-ms/v2/codec/json"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	merr "github.com/yadisnel/go-ms/v2/errors"
 	"github.com/yadisnel/go-ms/v2/registry"
 	"github.com/yadisnel/go-ms/v2/registry/cache"

@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/yadisnel/go-ms/v2/broker"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 )
 
 type sidecar struct {

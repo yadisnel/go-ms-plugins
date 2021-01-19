@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/hudl/fargo"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/registry"
 	"github.com/op/go-logging"
 )

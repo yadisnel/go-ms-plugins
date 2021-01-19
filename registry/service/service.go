@@ -2,7 +2,7 @@
 package service
 
 import (
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/registry"
 	"github.com/yadisnel/go-ms/v2/registry/service"
 )

@@ -14,7 +14,7 @@ import (
 	"github.com/yadisnel/go-ms/v2/codec"
 	"github.com/yadisnel/go-ms/v2/codec/jsonrpc"
 	"github.com/yadisnel/go-ms/v2/codec/protorpc"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	log "github.com/yadisnel/go-ms/v2/logger"
 	"github.com/yadisnel/go-ms/v2/registry"
 	"github.com/yadisnel/go-ms/v2/server"

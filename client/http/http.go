@@ -16,10 +16,10 @@ import (
 
 	"github.com/yadisnel/go-ms/v2/broker"
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
+	"github.com/yadisnel/go-ms/v2/selector"
 	"github.com/yadisnel/go-ms/v2/codec"
 	raw "github.com/yadisnel/go-ms/v2/codec/bytes"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	errors "github.com/yadisnel/go-ms/v2/errors"
 	"github.com/yadisnel/go-ms/v2/metadata"
 	"github.com/yadisnel/go-ms/v2/registry"

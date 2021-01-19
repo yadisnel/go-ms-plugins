@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/go-plugins/registry/kubernetes/v2/client"
+	"github.com/yadisnel/go-ms/v2plugins/registry/kubernetes/v2/client"
 
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/registry"
 )
 

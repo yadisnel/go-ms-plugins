@@ -9,8 +9,8 @@ to create a HTTP Server that could potentially be used for REST based API servic
 import (
 	"net/http"
 
-	"github.com/yadisnel/go-ms/server"
-	httpServer "github.com/micro/go-plugins/server/http"
+	"github.com/yadisnel/go-ms/v2server"
+	httpServer "github.com/yadisnel/go-ms/v2plugins/server/http"
 )
 
 func main() {
@@ -38,8 +38,8 @@ import (
 	"net/http"
 
 	"github.com/yadisnel/go-ms/v2"
-	"github.com/yadisnel/go-ms/server"
-	httpServer "github.com/micro/go-plugins/server/http"
+	"github.com/yadisnel/go-ms/v2server"
+	httpServer "github.com/yadisnel/go-ms/v2plugins/server/http"
 )
 
 func main() {

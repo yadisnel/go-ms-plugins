@@ -10,7 +10,7 @@ import (
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
+	"github.com/yadisnel/go-ms/v2/selector"
 	microerr "github.com/yadisnel/go-ms/v2/errors"
 	"github.com/yadisnel/go-ms/v2/registry/memory"
 	"github.com/yadisnel/go-ms/v2/server"

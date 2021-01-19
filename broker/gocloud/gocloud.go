@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/yadisnel/go-ms/v2/broker"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/streadway/amqp"
 	"gocloud.dev/gcp"
 	"gocloud.dev/pubsub"

@@ -11,7 +11,7 @@ import (
 
 	metrics "github.com/VictoriaMetrics/metrics"
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
+	"github.com/yadisnel/go-ms/v2/selector"
 	"github.com/yadisnel/go-ms/v2/registry/memory"
 	"github.com/yadisnel/go-ms/v2/server"
 	"github.com/stretchr/testify/assert"

@@ -11,7 +11,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/streadway/amqp"
 
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/transport"
 )
 

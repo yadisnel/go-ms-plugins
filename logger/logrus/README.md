@@ -1,6 +1,6 @@
 # logrus
 
-[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-micro__ [meta logger](https://github.com/micro/go-micro/tree/master/logger).
+[logrus](https://github.com/sirupsen/logrus) logger implementation for __go-micro__ [meta logger](https://github.com/yadisnel/go-ms/v2tree/master/logger).
 
 ## Usage
 

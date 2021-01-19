@@ -1,4 +1,4 @@
-# Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/micro/go-plugins?status.svg)](https://godoc.org/github.com/micro/go-plugins) [![Travis CI](https://travis-ci.org/micro/go-plugins.svg?branch=master)](https://travis-ci.org/micro/go-plugins) [![Go Report Card](https://goreportcard.com/badge/micro/go-plugins)](https://goreportcard.com/report/github.com/micro/go-plugins)
+# Plugins [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/yadisnel/go-ms/v2plugins?status.svg)](https://godoc.org/github.com/yadisnel/go-ms/v2plugins) [![Go Report Card](https://goreportcard.com/badge/micro/go-plugins)](https://goreportcard.com/report/github.com/yadisnel/go-ms/v2plugins)
 
 Go plugins is a place for community maintained plugins.
 
@@ -6,10 +6,6 @@ Go plugins is a place for community maintained plugins.
 
 Micro tooling is built on a powerful pluggable architecture. Plugins can be swapped out with zero code changes.
 This repository contains plugins for all micro related tools. Read on for further info.
-
-Read the [docs](https://micro.mu/docs/plugins.html) to learn more about how to use them.
-
-Follow us on [Twitter](https://twitter.com/microhq) or join the [Slack](http://slack.micro.mu/) community.
 
 ## Getting Started
 
@@ -44,9 +40,9 @@ Import the plugins in a `plugins.go` file
 package main
 
 import (
-	_ "github.com/micro/go-plugins/broker/rabbitmq/v2"
-	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
-	_ "github.com/micro/go-plugins/transport/nats/v2"
+	_ "github.com/yadisnel/go-ms/v2/plugins/broker/rabbitmq/v2"
+	_ "github.com/yadisnel/go-ms/v2/plugins/registry/kubernetes/v2"
+	_ "github.com/yadisnel/go-ms/v2/plugins/transport/nats/v2"
 )
 ```
 
@@ -102,7 +98,7 @@ Import and set as options when creating a new service
 ```go
 import (
 	"github.com/yadisnel/go-ms/v2"
-	"github.com/micro/go-plugins/registry/kubernetes/v2"
+	"github.com/yadisnel/go-ms/v2/plugins/registry/kubernetes/v2"
 )
 
 func main() {
@@ -129,9 +125,9 @@ Create file plugins.go
 package main
 
 import (
-	_ "github.com/micro/go-plugins/broker/rabbitmq/v2"
-	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
-	_ "github.com/micro/go-plugins/transport/nats/v2"
+	_ "github.com/yadisnel/go-ms/v2plugins/broker/rabbitmq/v2"
+	_ "github.com/yadisnel/go-ms/v2plugins/registry/kubernetes/v2"
+	_ "github.com/yadisnel/go-ms/v2plugins/transport/nats/v2"
 )
 ```
 
@@ -149,12 +145,3 @@ MICRO_REGISTRY=kubernetes \
 MICRO_TRANSPORT=nats \
 service
 ```
-
-## Contributions
-
-A few contributions by others
-
-| Feature                                                                                  | Description                              | Author                                         |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------- |
-| [Registry/Kubernetes](https://godoc.org/github.com/micro/go-plugins/registry/kubernetes) | Service discovery via the Kubernetes API | [@nickjackson](https://github.com/nickjackson) |
-| [Registry/Zookeeper](https://godoc.org/github.com/micro/go-plugins/registry/zookeeper)   | Service discovery using Zookeeper        | [@HeavyHorst](https://github.com/HeavyHorst)   |

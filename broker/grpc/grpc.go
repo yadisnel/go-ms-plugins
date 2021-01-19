@@ -15,7 +15,7 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/yadisnel/go-ms/v2/broker"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	merr "github.com/yadisnel/go-ms/v2/errors"
 	log "github.com/yadisnel/go-ms/v2/logger"
 	"github.com/yadisnel/go-ms/v2/registry"
@@ -23,7 +23,7 @@ import (
 	maddr "github.com/yadisnel/go-ms/v2/util/addr"
 	mnet "github.com/yadisnel/go-ms/v2/util/net"
 	mls "github.com/yadisnel/go-ms/v2/util/tls"
-	proto "github.com/micro/go-plugins/broker/grpc/v2/proto"
+	proto "github.com/yadisnel/go-ms/v2plugins/broker/grpc/v2/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

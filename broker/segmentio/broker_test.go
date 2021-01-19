@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/yadisnel/go-ms/v2/broker"
-	segmentio "github.com/micro/go-plugins/broker/segmentio/v2"
+	segmentio "github.com/yadisnel/go-ms/v2plugins/broker/segmentio/v2"
 )
 
 var (

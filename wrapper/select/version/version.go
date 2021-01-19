@@ -5,7 +5,7 @@ import (
 	"sort"
 
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
+	"github.com/yadisnel/go-ms/v2/selector"
 	"github.com/yadisnel/go-ms/v2/registry"
 )
 

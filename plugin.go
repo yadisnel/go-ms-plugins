@@ -13,12 +13,11 @@ import (
 
 	"github.com/yadisnel/go-ms/v2/broker"
 	"github.com/yadisnel/go-ms/v2/client"
-	"github.com/yadisnel/go-ms/v2/client/selector"
-	"github.com/yadisnel/go-ms/v2/config/cmd"
+	"github.com/yadisnel/go-ms/v2/cmd"
 	"github.com/yadisnel/go-ms/v2/registry"
+	"github.com/yadisnel/go-ms/v2/selector"
 	"github.com/yadisnel/go-ms/v2/server"
 	"github.com/yadisnel/go-ms/v2/transport"
-	mp "github.com/yadisnel/go-ms-runtime/v2/plugin"
 )
 
 // Plugin is a plugin loaded from a file
@@ -36,12 +35,6 @@ type Plugin struct {
 // Init sets up the plugin
 func Init(p *Plugin) error {
 	switch p.Type {
-	case "micro":
-		pg, ok := p.NewFunc.(func() mp.Plugin)
-		if !ok {
-			return fmt.Errorf("Invalid plugin %s", p.Name)
-		}
-		mp.Register(pg())
 	case "broker":
 		pg, ok := p.NewFunc.(func(...broker.Option) broker.Broker)
 		if !ok {
